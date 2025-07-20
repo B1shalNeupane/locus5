@@ -14,3 +14,8 @@ git reset {
 git branch
 git branch "branch name"{create new branch}
 git checkout "branch name"{go to the branch}
+git merge branch name
+{
+    use this code in the branch you want to add the files to 
+    ;branch name is the one you're pulling the code from
+}
