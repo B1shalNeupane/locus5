@@ -1,0 +1,16 @@
+git init
+git status
+git add "filename"
+git commit -m "message to be added"
+git log
+{
+    or --oneline for short form
+}
+git reset {
+    --soft
+    --hard; after using this, you cannot go back to the last version
+    --mixed
+} syntax: git reset --hard commit-id{ commit-id is the first four letters of the id number displayed}
+git branch
+git branch "branch name"{create new branch}
+git checkout "branch name"{go to the branch}
